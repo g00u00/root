@@ -1,0 +1,71 @@
+Verbose mode on.
+Already connected to 176.56.236.158, use close first.
+331 Please specify the password.
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+200 Switching to ASCII mode.
+Connected to 176.56.236.158.
+No proxy connection.
+Connecting using address family: any.
+Mode: stream; Type: ascii; Form: non-print; Structure: file
+Verbose: on; Bell: off; Prompting: off; Globbing: on
+Store unique: off; Receive unique: off
+Case: off; CR stripping: on
+Quote control characters: off
+Ntrans: off
+Nmap: off
+Hash mark printing: off; Use of PORT cmds: on
+Tick counter printing: off
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwx--x--x    4 1001     1002         4096 Mar 01 07:48 .
+drwxr-xr-x    3 0        0            4096 Jul 12  2015 ..
+-rw-------    1 1001     1002         1381 Jan 30 09:05 .bash_history
+-rw-r--r--    1 1001     1002          220 Dec 30  2012 .bash_logout
+-rw-r--r--    1 1001     1002         2952 Oct 15  2013 .bashrc
+drwxr-xr-x    2 1001     1002         4096 Oct 15  2013 .bashrc.d
+-rw-r--r--    1 1001     1002            0 Dec 02 18:45 .penv
+-rw-r--r--    1 1001     1002          746 Oct 15  2013 .profile
+drwxr-xr-x    2 1001     1002         4096 Oct 15  2013 .profile.d
+-rw-r--r--    1 1001     1002            0 Jan 29 15:20 .sdirs
+-rw-r--r--    1 1001     1002     1258699964 Feb 28 22:15 g_su.tar.bz2
+-rw-r--r--    1 1001     1002     905997543 Feb 07 22:14 g_su.tar_20126-02-08.bz2
+-rw-r--r--    1 1001     1002     915205640 Dec 02 19:05 g_su.tar_2015-12-02.bz2
+-rw-r--r--    1 1001     1002     880860178 Dec 20 22:15 g_su_2015-12-21.tar.bz2
+-rw-r--r--    1 1001     1002     947979848 Mar 01 06:32 marshirov.bz2
+-rw-r--r--    1 1001     1002     894615677 Dec 02 18:53 marshirov_2015-12-02.bz2
+-rw-r--r--    1 1001     1002     900576827 Dec 23 23:01 marshirov_2015-12-24.bz2
+-rw-r--r--    1 1001     1002     926034918 Feb 10 23:01 marshirov_2016-02-11.bz2
+-rw-r--r--    1 1001     1002     947971081 Feb 28 23:01 marshirov_2016-02-29.bz2
+-rw-r--r--    1 1001     1002          109 Mar 01 07:55 test.bz2
+226 Directory send OK.
+local: /var/www/marshirov/test.bz2 remote: test.bz2
+200 PORT command successful. Consider using PASV.
+150 Ok to send data.
+226 Transfer complete.
+109 bytes sent in 0.00 secs (3326.4 kB/s)
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwx--x--x    4 1001     1002         4096 Mar 01 07:48 .
+drwxr-xr-x    3 0        0            4096 Jul 12  2015 ..
+-rw-------    1 1001     1002         1381 Jan 30 09:05 .bash_history
+-rw-r--r--    1 1001     1002          220 Dec 30  2012 .bash_logout
+-rw-r--r--    1 1001     1002         2952 Oct 15  2013 .bashrc
+drwxr-xr-x    2 1001     1002         4096 Oct 15  2013 .bashrc.d
+-rw-r--r--    1 1001     1002            0 Dec 02 18:45 .penv
+-rw-r--r--    1 1001     1002          746 Oct 15  2013 .profile
+drwxr-xr-x    2 1001     1002         4096 Oct 15  2013 .profile.d
+-rw-r--r--    1 1001     1002            0 Jan 29 15:20 .sdirs
+-rw-r--r--    1 1001     1002     1258699964 Feb 28 22:15 g_su.tar.bz2
+-rw-r--r--    1 1001     1002     905997543 Feb 07 22:14 g_su.tar_20126-02-08.bz2
+-rw-r--r--    1 1001     1002     915205640 Dec 02 19:05 g_su.tar_2015-12-02.bz2
+-rw-r--r--    1 1001     1002     880860178 Dec 20 22:15 g_su_2015-12-21.tar.bz2
+-rw-r--r--    1 1001     1002     947979848 Mar 01 06:32 marshirov.bz2
+-rw-r--r--    1 1001     1002     894615677 Dec 02 18:53 marshirov_2015-12-02.bz2
+-rw-r--r--    1 1001     1002     900576827 Dec 23 23:01 marshirov_2015-12-24.bz2
+-rw-r--r--    1 1001     1002     926034918 Feb 10 23:01 marshirov_2016-02-11.bz2
+-rw-r--r--    1 1001     1002     947971081 Feb 28 23:01 marshirov_2016-02-29.bz2
+-rw-r--r--    1 1001     1002          109 Mar 01 07:56 test.bz2
+226 Directory send OK.
+221 Goodbye.
