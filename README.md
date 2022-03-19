@@ -6,10 +6,9 @@ su
 
 cd
 
-git clone https://github.com/g00u00/g00u00.git /root
+git clone https://github.com/g00u00/root.git
 
 bash apache_users_config.sh
-
 
 
 
