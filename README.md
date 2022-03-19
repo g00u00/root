@@ -1,4 +1,4 @@
-Конфигурирование сервера
+###Конфигурирование сервера
 
 sudo passwd root
 
@@ -6,13 +6,16 @@ su
 
 cd
 
-git clone https://github.com/g00u00/root.git
+git clone https://github.com/g00u00/root.git /root
 
 bash apache_users_config.sh
 
 
 
-На сервера создаются  аккаунты:
+
+
+
+###На сервера создаются аккаунты:
 
 логин пароль IP:порт
 
@@ -33,4 +36,7 @@ g01u03 g01  127.0.0.1:8003
 g01u04 g01  127.0.0.1:8004
 
 g01u05 g01  127.0.0.1:8005
+
+
+
 
