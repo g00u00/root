@@ -2,6 +2,7 @@
 https://github.com/g00u00/root/blob/main/ReadMe_Files_VirtualBox/
 
 ###Конфигурирование сервера
+
 sudo passwd root
 
 su
@@ -18,6 +19,7 @@ bash apache_users_config.sh
 
 
 ###На сервера создаются аккаунты:
+
 логин пароль IP:порт
 
 g00u00 g00u00 - используется при начальном конфигурировании, но не всегда
