@@ -1,7 +1,8 @@
- #### Настройка Virtual Box и др.
+#### Настройка Virtual Box и др.
 https://github.com/g00u00/root/blob/main/zVirtualBox/
 
- ###Конфигурирование сервера
+
+#### Конфигурирование сервера
 
 sudo passwd root
 
@@ -11,14 +12,14 @@ cd
 
 ls -lAF
 
- rm -rf name  - при необходимости
+ rm -rf .*  - при необходимости
 
 git clone https://github.com/g00u00/root.git /root
 
 bash apache_users_config.sh
 
 
- ###На сервера создаются аккаунты:
+#### На сервера создаются аккаунты:
 
 логин пароль IP:порт
 
@@ -40,11 +41,9 @@ g01u04 g01  127.0.0.1:8004
 
 g01u05 g01  127.0.0.1:8005
 
- ###При необходимости создаем дополнительные аккаунты g02-g07
+#### При необходимости создаем дополнительные аккаунты g02-g07
 
 cd do_users
 
 bash UsersDb_add_del_g06.sh
-
-
 
