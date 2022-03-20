@@ -4,7 +4,7 @@ AddDefaultCharset utf-8
 SetEnv PYTHONIOENCODING utf-8
 Options +Indexes
 DirectoryIndex index.html
-AuthUserFile /root/folder/.htpasswd
+AuthUserFile /root/apache_users/.htpasswd
 AuthType Basic
 AuthName "notroot"
 Require valid-user
