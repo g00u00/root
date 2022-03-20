@@ -39,8 +39,8 @@ do
     cmd="chown root /var/www/"$user_pref"/"$user_name;echo $cmd;$cmd
 #    cmd="chmod 1755 /var/www/"$user_pref"/"$user_name;echo $cmd;$cmd
 #    cmd="chmod 711 /var/www/"$user_pref"/"$user_name"/*";echo $cmd;$cmd
-    cmd="chmod 755 /var/www/"$user_pref"/"$user_name"/*";echo $cmd;$cmd
-    cmd="chmod 777 /var/www/"$user_pref"/"$user_name"/tmp";echo $cmd;$cmd
+    cmd="chmod -R 755 /var/www/"$user_pref"/"$user_name"/*";echo $cmd;$cmd
+    cmd="chmod -R 777 /var/www/"$user_pref"/"$user_name"/tmp";echo $cmd;$cmd
     cmd="chgrp root /var/www/"$user_pref"/"$user_name"/.htaccess";echo $cmd;$cmd
     cmd="chown root /var/www/"$user_pref"/"$user_name"/.htaccess";echo $cmd;$cmd
     cmd="ls -laF /var/www/"$user_pref"/"$user_name"/";echo $cmd;$cmd
