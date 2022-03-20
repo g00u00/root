@@ -9,6 +9,10 @@ su
 
 cd
 
+ls -lAF
+
+ rm -rf name  - при необходимости
+
 git clone https://github.com/g00u00/root.git /root
 
 bash apache_users_config.sh

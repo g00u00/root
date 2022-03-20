@@ -43,12 +43,34 @@ systemctl stop apache2
 cp apache_users/apache2.conf /etc/apache2/
 cp apache_users/charset.conf /etc/apache2/conf-enabled/
 cp apache_users/ports.conf /etc/apache2/
-cat /etc/apache2/ports.conf
 ls -lAF /etc/apache2/
+cat /etc/apache2/ports.conf
+
 echo "Добавляем  пользователей"
+cp  apache_users/g00.conf /etc/apache2/sites-enabled/
 cp  apache_users/g01.conf /etc/apache2/sites-enabled/
+cp  apache_users/g02.conf /etc/apache2/sites-enabled/
+cp  apache_users/g03.conf /etc/apache2/sites-enabled/
+cp  apache_users/g04.conf /etc/apache2/sites-enabled/
+cp  apache_users/g05.conf /etc/apache2/sites-enabled/
+cp  apache_users/g06.conf /etc/apache2/sites-enabled/
+cp  apache_users/g07.conf /etc/apache2/sites-enabled/
+cat  /etc/apache2/sites-enabled/g00.conf
 cat  /etc/apache2/sites-enabled/g01.conf
+cat  /etc/apache2/sites-enabled/g02.conf
+cat  /etc/apache2/sites-enabled/g03.conf
+cat  /etc/apache2/sites-enabled/g04.conf
+cat  /etc/apache2/sites-enabled/g05.conf
+cat  /etc/apache2/sites-enabled/g05.conf
+cat  /etc/apache2/sites-enabled/g07.conf
+a2ensite /etc/apache2/sites-enabled/g00.conf
 a2ensite /etc/apache2/sites-enabled/g01.conf
+a2ensite /etc/apache2/sites-enabled/g02.conf
+a2ensite /etc/apache2/sites-enabled/g03.conf
+a2ensite /etc/apache2/sites-enabled/g04.conf
+a2ensite /etc/apache2/sites-enabled/g05.conf
+a2ensite /etc/apache2/sites-enabled/g06.conf
+a2ensite /etc/apache2/sites-enabled/g07.conf
 a2dissite /etc/apache2/sites-enabled/000-default.conf
 echo "Your choices are:"
 echo "Which site(s) do you want to disable (wildcards ok)?"
@@ -80,6 +102,7 @@ ufw allow 8003
 ufw allow 8004
 ufw allow 8005
 ufw enable
+ufw disable
 ufw status verbose
 echo ""
 echo "Рестартуем http-сервер"

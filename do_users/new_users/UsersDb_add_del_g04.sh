@@ -90,7 +90,7 @@ COMMENT
 #*/============================
 
 
-mysql -uroot -peHc4C37L -e "SELECT now();
+mysql -uroot -proot -e "SELECT now();
 DROP DATABASE IF EXISTS $user_name; 
 CREATE DATABASE IF NOT EXISTS $user_name  DEFAULT CHARACTER SET = utf8    DEFAULT COLLATE = utf8_general_ci; 
 #SHOW DATABASES;
