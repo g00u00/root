@@ -43,6 +43,7 @@ systemctl stop apache2
 cp apache_users/apache2.conf /etc/apache2/
 cp apache_users/charset.conf /etc/apache2/conf-enabled/
 cp apache_users/ports.conf /etc/apache2/
+cp apache_users/.htpasswd /etc/apache2/
 ls -lAF /etc/apache2/
 cat /etc/apache2/ports.conf
 
