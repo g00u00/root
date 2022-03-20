@@ -1,5 +1,5 @@
 #### Настройка Virtual Box и др.
-https://github.com/g00u00/root/blob/main/ReadMe_Files_VirtualBox/
+https://github.com/g00u00/root/blob/main/zVirtualBox/
 
 ###Конфигурирование сервера
 
@@ -16,14 +16,6 @@ ls -lAF
 git clone https://github.com/g00u00/root.git /root
 
 bash apache_users_config.sh
-
-###При необходимости создаем дополнительные аккаунты g02-g07
-
-cd do_users
-
-bash UsersDb_add_del_g06.sh
-
-
 
 
 ###На сервера создаются аккаунты:
@@ -48,6 +40,11 @@ g01u04 g01  127.0.0.1:8004
 
 g01u05 g01  127.0.0.1:8005
 
+###При необходимости создаем дополнительные аккаунты g02-g07
+
+cd do_users
+
+bash UsersDb_add_del_g06.sh
 
 
 
