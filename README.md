@@ -17,7 +17,11 @@ git clone https://github.com/g00u00/root.git /root
 
 bash apache_users_config.sh
 
+###При необходимости создаем дополнительные аккаунты g02-g07
 
+cd do_users
+
+bash UsersDb_add_del_g06.sh
 
 
 
