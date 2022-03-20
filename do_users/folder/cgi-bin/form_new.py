@@ -108,6 +108,7 @@ def assignment_content():
     return def_result
 
 
+
 def form_action():
     print("\nЗаполняем форму")
     print(
