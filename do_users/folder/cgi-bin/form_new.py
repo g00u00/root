@@ -101,7 +101,6 @@ def file_list(data_dictionary):
     return 'Функция записи, считывания и анализа данных выполнена'
 
 
-
 def assignment_content():
     print('\nЗадание' )
     print('Вычислить значение z, равное сумме x и y' )
@@ -144,7 +143,7 @@ if __name__ == '__main__':
     def_result = form_parsing()
     print(def_result)
 
-    if (def_result != "В строке запроса нет всех данных"):
+    if (def_result != "В строке запроса нет всех данных  "):
         def_result = data_testing(def_result)
         print(def_result)
         
