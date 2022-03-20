@@ -20,7 +20,7 @@ bash apache_users_config.sh
 
 crontab -e
 
-39 *   *   *   *  rm /var/log/apache2/*.*
+39 * * * * rm /var/log/apache2/*.*
 
 #### На сервера создаются аккаунты:
 
