@@ -40,8 +40,11 @@ echo "passwd:g01"
 echo ""
 ls -lAF
 
+
+
 echo ""
-echo "Настраиваем сервер и открываем порты"
+echo "Устанваливаем веб-сервер  и открываем порты"
+apt install apache2
 systemctl stop apache2
 cp apache_users/apache2.conf /etc/apache2/
 cp apache_users/charset.conf /etc/apache2/conf-enabled/
