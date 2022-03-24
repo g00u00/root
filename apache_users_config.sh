@@ -1,6 +1,7 @@
 #!/bin/bash
 
 apt-get update
+sudo apt update
 
 #apt install tasksel
 #tasksel install lamp-server
