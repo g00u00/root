@@ -2,8 +2,10 @@
 
 apt-get update
 
-apt install tasksel
-tasksel install lamp-server
+#apt install tasksel
+#tasksel install lamp-server
+
+apt install mysql-server mysql-client
 
 apt install net-tools
 apt install python3-pip
