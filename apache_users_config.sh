@@ -3,16 +3,22 @@
 apt-get update
 sudo apt update
 
+
 #apt install tasksel
 #tasksel install lamp-server
 
 apt install mysql-server mysql-client
+
 
 apt install net-tools
 apt install python3-pip
 pip3 install pymysql
 pip3 install numpy
 pip3 install matplotlib
+
+apt install zip
+apt install unzip
+
 
 echo ""
 echo "Устанавливаем временной  пояс"
