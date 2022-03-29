@@ -18,7 +18,7 @@ pip3 install matplotlib
 
 apt install zip
 apt install unzip
-
+apt install python3-pip
 
 echo ""
 echo "Устанавливаем временной  пояс"
