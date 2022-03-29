@@ -18,6 +18,7 @@ pip3 install matplotlib
 
 apt install zip
 apt install unzip
+apt install vim
 apt install python3-pip
 
 echo ""
