@@ -7,6 +7,7 @@ sudo apt update
 #apt install tasksel
 #tasksel install lamp-server
 
+apt install git
 apt install mysql-server mysql-client
 
 
