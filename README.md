@@ -4,14 +4,17 @@ https://github.com/g00u00/root/blob/main/zVirtualBox/
 
 #### Пример удаленного сервера
 
+
 https://www.reg.ru/vps/cloud/
 
 https://www.reg.ru/user/account/#/
 
 
 
-
 #### Конфигурирование сервера
+
+см. https://eduhseru-my.sharepoint.com/:f:/g/personal/vmarshirov_hse_ru/EtHvGTwieHNLlo8EXJtpXiwBeRgCGEbv0FOX5qzU_Ey-Yg?e=hsX67b
+
 
 sudo passwd root
 
