@@ -1,5 +1,13 @@
 #### Настройка Virtual Box и др.
+
 https://github.com/g00u00/root/blob/main/zVirtualBox/
+
+#### Пример удаленного сервера
+
+https://www.reg.ru/vps/cloud/
+https://www.reg.ru/user/account/#/
+
+
 
 
 #### Конфигурирование сервера
