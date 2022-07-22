@@ -20,8 +20,6 @@ pip3 install matplotlib
 apt install zip
 apt install unzip
 apt install vim
-apt install -y nodejs
-
 
 echo ""
 echo "Устанавливаем временной  пояс"
