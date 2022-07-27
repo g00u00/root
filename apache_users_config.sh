@@ -118,6 +118,7 @@ ufw disable
 ufw allow 21
 ufw allow 22
 ufw allow 80
+ufw allow 3000
 ufw allow 8000
 ufw allow 8001
 ufw allow 8002
