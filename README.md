@@ -24,7 +24,10 @@ cd
 
 ls -lAF
 
- rm -rf .*  - при необходимости
+rm -rf .* - при необходимости
+
+rm -rf *
+
 
 git clone https://github.com/g00u00/root.git /root
 
