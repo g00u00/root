@@ -13,7 +13,7 @@ https://www.reg.ru/user/account/#/
 
 #### Конфигурирование сервера
 
-см. https://eduhseru-my.sharepoint.com/:f:/g/personal/vmarshirov_hse_ru/EtHvGTwieHNLlo8EXJtpXiwBeRgCGEbv0FOX5qzU_Ey-Yg?e=hsX67b
+Видео: https://disk.yandex.ru/d/fFOv1KTzCPo0IA
 
 
 sudo passwd root
