@@ -102,7 +102,7 @@ a2dissite
 echo ""
 echo "Разрешаем CGI -скрипты"
 a2enmod cgi
-
+a2enmod headers
 
 echo ""  
 echo "!!!Azure"  
