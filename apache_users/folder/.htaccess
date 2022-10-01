@@ -1,6 +1,7 @@
 DefaultLanguage ru
 AddDefaultCharset utf-8
 #AddDefaultCharset windows-1251
+Header set Access-Control-Allow-Origin "*"
 SetEnv PYTHONIOENCODING utf-8
 Options +Indexes
 DirectoryIndex index.html
