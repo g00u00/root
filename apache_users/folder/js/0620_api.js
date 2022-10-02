@@ -15,7 +15,7 @@ async function getResponce() {
         <li> 
         <h3>${content[key].title}</h3>
         <img src=${content[key].url} width="200px">
-        </li>
+        </li>`
     }
 }
 
